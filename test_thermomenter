@@ -1,0 +1,21 @@
+import unittest
+from Thermometer import celsius_to_fahrenheit
+
+class TestThermometer(unittest.TestCase):
+    def test_freezing(self):
+        self.assertAlmostEqual(celsius_to_fahrenheit(0), 32.0)
+
+    def test_boiling(self):
+        self.assertAlmostEqual(celsius_to_fahrenheit(100), 212.0)
+
+    def test_negative(self):
+        self.assertAlmostEqual(celsius_to_fahrenheit(-40), -40.0)
+
+    def test_room_temp(self):
+        self.assertAlmostEqual(celsius_to_fahrenheit(25), 77.0)
+
+    def test_float(self):
+        self.assertAlmostEqual(celsius_to_fahrenheit(36.6), 97.88, places=2)
+
+if __name__ == "__main__":
+    unittest.main()
