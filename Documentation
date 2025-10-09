@@ -1,0 +1,55 @@
+"""
+🌡 Digital Thermometer Program
+--------------------------------
+This program converts a temperature value from Celsius to Fahrenheit
+and describes the general weather condition based on the Celsius input.
+
+Author: Qassim Mohamed
+Date: October 2025
+Language: Python 3
+"""
+
+def celsius_to_fahrenheit(celsius):
+    """
+    Convert temperature from Celsius to Fahrenheit.
+
+    Args:
+        celsius (float): The temperature value in degrees Celsius.
+
+    Returns:
+        float: The equivalent temperature in degrees Fahrenheit.
+    """
+    return (celsius * 9/5) + 32
+
+
+def main():
+    """
+    Main function that runs the digital thermometer program.
+    
+    - Prompts the user to enter a temperature in Celsius.
+    - Determines whether the day is hot, cold, or moderate.
+    - Converts the temperature to Fahrenheit and displays the result.
+    """
+    print("🌡  Welcome to the Digital Thermometer 🌡")
+
+    # Ask the user for temperature in Celsius
+    celsius = float(input("Enter temperature in degrees Celsius: "))
+
+    # Determine the weather condition based on the input value
+    if celsius > 25:
+        print("It's a hot day.")
+    elif celsius < 7:
+        print("It's a cold day.")
+    else:
+        print("The weather is moderate.")
+
+    # Convert to Fahrenheit using the defined function
+    fahrenheit = celsius_to_fahrenheit(celsius)
+
+    # Display the conversion result
+    print(f"The equivalent temperature in Fahrenheit is: {fahrenheit:.2f}°F")
+
+
+# This ensures the program runs only when executed directly, not when imported
+if _name_ == "_main_":
+    main()
