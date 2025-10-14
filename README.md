@@ -1,10 +1,16 @@
 # software-implementation-group8 members
 GROUP MEMBERS
+
 1)Suleiman Siyat -674039 (Program- writing)
+
 2) Hussein Ali-674334(Input-validation-and-exceptions)
+
 3)Ibrahim Mohammed-673931(Unit-testing)
+
 4)Amina Mohammed-673204(Final-README- and-merging)
+
 5)Abdirahman Hashim -674353(peer-review)
+
 6)Kassim Mohamed-674210(Documentation)
 
 
