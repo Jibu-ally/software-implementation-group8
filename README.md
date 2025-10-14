@@ -3,7 +3,7 @@ GROUP MEMBERS
 
 1)Suleiman Siyat -674039 (Program- writing)
 
-2) Hussein Ali-674334(Input-validation-and-exceptions)
+2)Hussein Ali-674334(Input-validation-and-exceptions)
 
 3)Ibrahim Mohammed-673931(Unit-testing)
 
